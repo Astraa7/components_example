@@ -1,0 +1,10 @@
+<div class="potencia">
+    <div class="titulo">
+        <h3>Calculadora de Potencia</h3>
+    </div>
+    <input placeholder="Base" #baseInput>
+    <input placeholder="Exponente" #exponenteInput>
+    <button (click)="calcularPotencia(baseInput.value, exponenteInput.value)">Calcular</button>
+    <p *ngIf="resultado !== null">El resultado de {{ baseInput.value }} elevado a la {{ exponenteInput.value }} es: {{
+        resultado }}</p>
+</div>

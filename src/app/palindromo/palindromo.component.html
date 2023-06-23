@@ -1,0 +1,12 @@
+<div class="palindromo">
+    <div class="titulo">
+        <h3>Verificador de Palíndromos</h3>
+    </div>
+    <input type="text" #palabraInput placeholder="Ingrese una palabra o frase">
+    <button (click)="verificarPalindromo(palabraInput.value)">Verificar</button>
+
+    <div *ngIf="palabraInput.value !== ''">
+        <p *ngIf="esPalindromo">Es un palíndromo.</p>
+        <p *ngIf="!esPalindromo">No es un palíndromo.</p>
+    </div>
+</div>

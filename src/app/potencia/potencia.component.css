@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+.potencia {
+  background-color: rgb(64, 63, 99);
+  border-radius: 30px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  max-width: 400px; /* Ajusta este valor según el ancho deseado */
+  width: 100%; /* Ocupa el ancho disponible */
+  padding: 50px; /* Agrega espacio interno al contenedor */
+  transition: box-shadow 0.3s;
+}
+
+.potencia:hover {
+  box-shadow: 0 0 10px 10px rgba(64, 63, 99, 0.404);
+  background-color: rgb(73, 72, 112);
+  transition: 0.3s;
+}
+
+input {
+  width: 100%; /* Ocupa el ancho disponible dentro del contenedor */
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #925aa0;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #5c3964;
+  transition: 0.2s ;
+}
+
+p {
+  padding: 20px;
+  font-weight: bold;
+}
