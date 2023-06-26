@@ -1,5 +1,4 @@
 # Little project
-## Small project
 
 Functions:
 - Basic calculator
